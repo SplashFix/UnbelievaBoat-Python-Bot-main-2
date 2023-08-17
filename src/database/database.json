@@ -1,0 +1,204 @@
+{
+    "userdata": [
+        {
+            "user_id": 100000000000000000,
+            "cash": 100.0,
+            "bank": 100.0,
+            "items": "none",
+            "used_items": "none",
+            "last_slut": "2021-01-01 00:00:00.0",
+            "last_work": "2021-01-01 00:00:00.0",
+            "last_crime": "2021-01-01 00:00:00.0",
+            "last_rob": "2021-01-01 00:00:00.0"
+        },
+        {
+            "user_id": 898126217042092043,
+            "cash": 1073,
+            "bank": 100,
+            "items": [
+                [
+                    "cola",
+                    0
+                ],
+                [
+                    "fanta",
+                    1
+                ],
+                [
+                    "redbull",
+                    1
+                ]
+            ],
+            "used_items": [
+                [
+                    "cola",
+                    3
+                ],
+                [
+                    "redbull",
+                    2
+                ]
+            ],
+            "last_slut": "none",
+            "last_work": "none",
+            "last_crime": "none",
+            "last_rob": "none"
+        }
+    ],
+    "variables": [
+        {
+            "name": "slut",
+            "delay": 10,
+            "min_revenue": 50,
+            "max_revenue": 400,
+            "proba": 50,
+            "win_phrases": [
+                "You made",
+                "Your dad likes it so much he gives you"
+            ],
+            "lose_phrases": [
+                "You were fined",
+                "Your uncle didn't like the encounter. You pay"
+            ],
+            "min_lose_amount_percentage": 2,
+            "max_lose_amount_percentage": 5
+        },
+        {
+            "name": "crime",
+            "delay": 60,
+            "min_revenue": 100,
+            "max_revenue": 1200,
+            "proba": 30,
+            "win_phrases": [
+                "You commited a crime and got",
+                "You robbed a bank and got"
+            ],
+            "lose_phrases": [
+                "You were fined",
+                "MacGyver finds you, you pay"
+            ],
+            "min_lose_amount_percentage": 10,
+            "max_lose_amount_percentage": 20
+        },
+        {
+            "name": "work",
+            "delay": 10,
+            "min_revenue": 51,
+            "max_revenue": 200,
+            "win_phrases": [
+                "You worked at SubWay and made",
+                "You helped someone do his homework and got"
+            ]
+        },
+        {
+            "name": "rob",
+            "delay": 45,
+            "proba": 50,
+            "min_gain_amount_percentage": 10,
+            "max_gain_amount_percentage": 20,
+            "min_lose_amount_percentage": 10,
+            "max_lose_amount_percentage": 20,
+            "win_phrases": [
+                "You robbed and got"
+            ],
+            "lose_phrases": [
+                "You were caught robbing and have to pay"
+            ]
+        }
+    ],
+    "symbols": [
+        {
+            "name": "currency_symbol",
+            "symbol_emoji": "majesticcoin"
+        }
+    ],
+    "items": [
+        {
+            "name": "cola",
+            "display_name": "\u300e\ud83e\udd5b\u300fDrink - Cola (Normal, Cherry, Zero)",
+            "price": 3,
+            "description": "`id: 1`",
+            "duration": 99999,
+            "amount_in_stock": "unlimited",
+            "required_roles": [
+                "none"
+            ],
+            "given_roles": [
+                "none"
+            ],
+            "removed_roles": [
+                "none"
+            ],
+            "maximum_balance": "none",
+            "reply_message": "**du hast dir eine cola gekauft, benutze !use <item> um das item zu verbrauchen**",
+            "expiration_date": "2297-05-29 23:01:29.868804"
+        },
+        {
+            "name": "fanta",
+            "display_name": "\u300e\ud83e\udd5b\u300fDrink - Fanta (Orange, Lemon, Wildberry)",
+            "price": 3,
+            "description": "`id: 2`",
+            "duration": 99999,
+            "amount_in_stock": "unlimited",
+            "required_roles": [
+                "none"
+            ],
+            "given_roles": [
+                "none"
+            ],
+            "removed_roles": [
+                "none"
+            ],
+            "maximum_balance": "none",
+            "reply_message": "**du hast dir eine fanta gekauft, benutze !use <item> um das item zu verbrauchen**",
+            "expiration_date": "2297-05-30 11:00:33.217974"
+        },
+        {
+            "name": "spezi",
+            "display_name": "\u300e\ud83e\udd5b\u300fDrink - Spezi (ohne alkohol)",
+            "price": 4,
+            "description": "`id 3`",
+            "duration": 99999,
+            "amount_in_stock": "unlimited",
+            "required_roles": [
+                "none"
+            ],
+            "given_roles": [
+                "none"
+            ],
+            "removed_roles": [
+                "none"
+            ],
+            "maximum_balance": "none",
+            "reply_message": "**du hast dir ein spezi gekauft, benutze !use <item> um das item zu verbrauchen**",
+            "expiration_date": "2297-05-30 11:28:54.196692"
+        },
+        {
+            "name": "redbull",
+            "display_name": "\u300e<:redbull:1141309232872968192>\u300fDrink - Redbull (White, Sommer edition)",
+            "price": 5,
+            "description": "`id 4`",
+            "duration": 99999,
+            "amount_in_stock": "unlimited",
+            "required_roles": [
+                "none"
+            ],
+            "given_roles": [
+                "none"
+            ],
+            "removed_roles": [
+                "none"
+            ],
+            "maximum_balance": "none",
+            "reply_message": "**du hast dir ein redbull gekauft, benutze !use <item> um das item zu verbrauchen**",
+            "expiration_date": "2297-05-30 11:57:18.251021"
+        }
+    ],
+    "income_roles": [
+        {
+            "role_id": "1099355808539623494",
+            "role_income": 1200,
+            "last_updated": "2023-08-15 17:52:16.376195"
+        }
+    ]
+}
